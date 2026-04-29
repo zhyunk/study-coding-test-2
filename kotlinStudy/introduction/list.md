@@ -1,7 +1,7 @@
 > https://school.programmers.co.kr/learn/challenges/training?order=recent&languages=kotlin
 
 # 프로그래머스 - 코딩테스트 - 코딩기초트레이닝
-- /day01 👉️ 출력
+- /day01 👉️ 출력 <sub>&nbsp;&nbsp;✅ 26.04.28 &nbsp;&nbsp; ⚒️ 26.04.29</sub>
 - /day02 👉️ 출력,연산
 - /day03 👉️ 연산
 - /day04 👉️ 연산, 조건문

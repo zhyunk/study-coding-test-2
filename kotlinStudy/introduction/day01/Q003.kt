@@ -18,7 +18,32 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181950?language=kotlin
  */
 
 fun main(args: Array<String>) {
-    readLine()!!.split(' ').filter(String::isNotBlank).let {
+    readLine()!!.split(' ').let {
         println(it[0].repeat(it[1].toInt()))
     }
 }
+
+/*
+fun main(args: Array<String>) {
+    val input = readLine()!!.split(' ')
+    val s1 = input[0]
+    val a = input[1]!!.toInt()
+
+    println(s1.repeat(a))
+}
+*/
+
+/*
+fun main(args: Array<String>) {
+    val input = readLine()!!.split(' ')
+    val s1 = input[0]
+    val a = input[1]!!.toInt()
+    var result = ""
+
+    repeat(a) {
+        result += s1
+    }
+
+    println(result)
+}
+*/

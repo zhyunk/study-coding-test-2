@@ -10,6 +10,15 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181948?language=kotlin
  */
 
 fun main(args: Array<String>) {
-//    println("!@#$%^&*(\\'\"<>?:;")
     println("""!@#$%^&*(\'"<>?:;""")
 }
+
+/*
+fun main(args: Array<String>) {
+    println("!@#$%^&*(\\'\"<>?:;")
+}
+*/
+
+/*
+fun main(args: Array<String>) = println("""!@#$%^&*(\'"<>?:;""")
+*/

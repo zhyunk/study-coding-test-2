@@ -9,6 +9,24 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181952?language=kotlin
  * 1 ≤ str의 길이 ≤ 1,000,000
  * str에는 공백이 없으며, 첫째 줄에 한 줄로만 주어집니다.
  */
+
 fun main(args: Array<String>) {
-    readLine()?.let(::println)
+    println(readLine()!!)
 }
+
+/*
+fun main(args: Array<String>) = println(readLine()!!)
+*/
+
+/*
+fun main(args: Array<String>) {
+    readLine()!!.let(::println)
+}
+*/
+
+/*
+fun main(args: Array<String>) {
+    val str = readLine()!!
+    println(str)
+}
+*/

@@ -17,13 +17,43 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181949?language=kotlin
  */
 
 fun main(args: Array<String>) {
-    /*
-    readLine()!!.split("").filter(String::isNotBlank).joinToString("") {
+    readLine()!!
+        .map {
+            if(it.isUpperCase()) it.lowercaseChar()
+            else it.uppercaseChar()
+        }
+        .joinToString("")
+        .let(::println)
+}
+
+/*
+fun main(args: Array<String>) {
+    readLine()!!.split("").joinToString("") {
             if(it < "a") it.lowercase() else it.uppercase()
     }.let(::println)
-    */
+}
+*/
 
+/*
+fun main(args: Array<String>) {
     readLine()!!.toCharArray().joinToString("") {
         if(it.isUpperCase()) it.lowercase() else it.uppercase()
     }.let(::println)
 }
+*/
+
+/*
+fun main(args: Array<String>) {
+    val str = readLine()!!
+    val chars = str.toCharArray()
+
+    for (i in chars.indices) {
+        if (chars[i].isUpperCase())
+            chars[i] = chars[i].lowercaseChar()
+        else
+            chars[i] = chars[i].uppercaseChar()
+    }
+
+    println(chars.concatToString())
+}
+*/

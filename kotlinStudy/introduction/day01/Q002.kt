@@ -17,5 +17,22 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181951?language=kotlin
  */
 
 fun main(args: Array<String>) {
-    readLine()!!.split(' ').filter(String::isNotBlank).let{ println("a = ${it[0]}\nb = ${it[1]}") }
+    readLine()!!.split(' ').let{ println("a = ${it[0]}\nb = ${it[1]}") }
 }
+
+/*
+fun main(args: Array<String>) {
+    val (a, b) = readLine()!!.split(' ').map(String::toInt)
+    println("a = ${a}\nb = ${b}")
+}
+*/
+
+/*
+fun main(args: Array<String>) {
+    val input = readLine()!!.split(' ')
+    val a = input[0].toInt()
+    val b = input[1].toInt()
+
+    println("a = ${a}\nb = ${b}")
+}
+*/
