@@ -17,6 +17,17 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181949?language=kotlin
  */
 
 fun main(args: Array<String>) {
+    readLine()!!.forEach {
+        if (it.isUpperCase())
+            print(it.lowercaseChar())
+        else
+            print(it.uppercaseChar())
+    }
+    println()
+}
+
+/*
+fun main(args: Array<String>) {
     readLine()!!
         .map {
             if(it.isUpperCase()) it.lowercaseChar()
@@ -25,6 +36,7 @@ fun main(args: Array<String>) {
         .joinToString("")
         .let(::println)
 }
+*/
 
 /*
 fun main(args: Array<String>) {
@@ -39,6 +51,20 @@ fun main(args: Array<String>) {
     readLine()!!.toCharArray().joinToString("") {
         if(it.isUpperCase()) it.lowercase() else it.uppercase()
     }.let(::println)
+}
+*/
+
+/*
+fun main(args: Array<String>) {
+    val str = readLine()!!
+
+    for (c in str) {
+        if (c.isUpperCase())
+            print(c.lowercaseChar())
+        else
+            print(c.uppercaseChar())
+    }
+    println()
 }
 */
 
