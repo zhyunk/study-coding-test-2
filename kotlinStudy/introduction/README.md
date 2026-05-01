@@ -5,7 +5,7 @@
 - /day02 👉️ 출력,연산 <sub>&nbsp;&nbsp;✅ 26.04.29</sub>
 - /day03 👉️ 연산 <sub>&nbsp;&nbsp;✅ 26.05.01</sub>
 - /day04 👉️ 연산, 조건문 <sub>&nbsp;&nbsp;✅ 26.05.01</sub>
-- /day05 👉️ 조건문
+- /day05 👉️ 조건문 <sub>&nbsp;&nbsp;✅ 26.05.01 ~ 26.05.02</sub>
 - /day06 👉️ 조건문, 반복문
 - /day07 👉️ 반복문
 - /day08 👉️ 조건문, 문자열
