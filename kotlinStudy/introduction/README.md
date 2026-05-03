@@ -7,7 +7,7 @@
 - /day04 👉️ 연산, 조건문 <sub>&nbsp;&nbsp;✅ 26.05.01</sub>
 - /day05 👉️ 조건문 <sub>&nbsp;&nbsp;✅ 26.05.01 ~ 26.05.02</sub>
 - /day06 👉️ 조건문, 반복문 <sub>&nbsp;&nbsp;✅ 26.05.02</sub>
-- /day07 👉️ 반복문
+- /day07 👉️ 반복문 <sub>&nbsp;&nbsp;✅ 26.05.03</sub>
 - /day08 👉️ 조건문, 문자열
 - /day09 👉️ 문자열
 - /day10 👉️ 문자열
