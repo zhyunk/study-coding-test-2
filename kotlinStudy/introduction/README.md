@@ -10,7 +10,7 @@
 - /day07 👉️ 반복문 <sub>&nbsp;&nbsp;✅ 26.05.03</sub>
 - /day08 👉️ 조건문, 문자열 <sub>&nbsp;&nbsp;✅ 26.05.04 ~ 26.05.05</sub>
 - /day09 👉️ 문자열 <sub>&nbsp;&nbsp;✅ 26.05.05</sub>
-- /day10 👉️ 문자열
+- /day10 👉️ 문자열 <sub>&nbsp;&nbsp;✅ 26.05.05</sub>
 - /day11 👉️ 리스트(배열)
 - /day12 👉️ 리스트(배열)
 - /day13 👉️ 리스트(배열)
