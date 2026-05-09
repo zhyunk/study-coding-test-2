@@ -17,7 +17,7 @@
 - /day14 👉️ 리스트(배열) <sub>&nbsp;&nbsp;✅ 26.05.09</sub>
 - /day15 👉️ 리스트(배열), 문자열 <sub>&nbsp;&nbsp;✅ 26.05.09</sub>
 - /day16 👉️ 문자열 <sub>&nbsp;&nbsp;✅ 26.05.09</sub>
-- /day17 👉️ 문자열
+- /day17 👉️ 문자열 <sub>&nbsp;&nbsp;✅ 26.05.09</sub>
 - /day18 👉️ 문자열
 - /day19 👉️ 문자열, 리스트(배열)
 - /day20 👉️ 함수(메서드)
