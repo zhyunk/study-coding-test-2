@@ -45,6 +45,42 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181832?language=kotlin
  */
 
 class Solution251 {
+
+    fun solution(n: Int): Array<IntArray> {
+        val answer = Array(n) { IntArray(n) }
+
+        // arr[col][row]
+        val dr = intArrayOf(0, 1, 0, -1)  //        row 방향  오른쪽: 1 왼쪽: -1
+        val dc = intArrayOf(1, 0, -1, 0)  //        col 방향  아래: 1   위: -1
+
+        var r = 0  // 현재 row 위치
+        var c = 0  // 현재 col 위치
+        var d = 0  // 현재 방향 (0 오른쪽 1 아래 2 왼쪽 3 위) -> (row -> col 순서로 진행)
+
+        for (num in 1..n * n) {
+            answer[r][c] = num // 이동
+
+            val nr = r + dr[d] // 다음 row 위치
+            val nc = c + dc[d] // 다음 col 위치
+
+            // 이동 가능한지 검사
+            if (
+                nr !in 0 until n ||
+                nc !in 0 until n ||
+                answer[nr][nc] != 0
+            ) {
+                d = (d + 1) % 4
+            }
+
+            // 현재 위치 업데이트
+            r += dr[d]
+            c += dc[d]
+        }
+
+        return answer
+    }
+
+    /*
     fun solution(n: Int): Array<IntArray> {
         val answer = Array<IntArray>(n) { IntArray(n) { 0 } }
 
@@ -88,6 +124,7 @@ class Solution251 {
 
         return answer
     }
+    */
 
 }
 
